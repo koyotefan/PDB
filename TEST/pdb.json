@@ -1,0 +1,79 @@
+{
+    "PCF": ["PCF_P", "PCF_S"],
+    "Subscriber": ["Subscriber_P", "Subscriber_S"],
+    "SessionDetail_0": ["SessionDetail_0_P", "SessionDetail_0_S"],
+    "SessionDetail_1": ["SessionDetail_1_P", "SessionDetail_1_S"],
+    "PGLocal1": ["PGLocal1_P", "PGLocal1_S"],
+
+    "Default": {
+        "Dsn": "Altibase",
+        "Host": "192.168.10.45",
+        "Id": "PCRF",
+        "Pwd": "PCRF1234",
+        "nConnType": 1,
+        "bNcharCheck": true,
+        "nPort": 20300,
+        "nTimeout": 5,
+        "nConnectionTimeout": 3
+    },
+
+    "PCF_P": {
+        "nPort": 20301
+    },
+    "PCF_S": {
+        "nPort": 20302
+    },
+    "Subscriber_P": {
+        "nPort": 20303
+    },
+    "Subscriber_S": {
+        "nPort": 20304
+    },
+    "SessionDetail_0_P": {
+        "nPort": 20305
+    },
+    "SessionDetail_0_S": {
+        "nPort": 20306
+    },
+    "SessionDetail_1_P": {
+        "Host": "192.168.10.245",
+        "nPort": 20300,
+        "Id" : "PCF",
+        "Pwd" : "PCF1234"
+    },
+    "SessionDetail_1_S": {
+        "Host": "192.168.10.246",
+        "nPort": 20300,
+        "Id" : "PCF",
+        "Pwd" : "PCF1234"
+    },
+    "PGLocal1_P": {
+        "Host": "192.168.10.246",
+        "nPort": 20300,
+        "Id" : "PCF",
+        "Pwd" : "PCF1234"
+    },
+    "PGLocal1_S": {
+        "Host": "192.168.10.246",
+        "nPort": 20300,
+        "Id" : "PCF",
+        "Pwd" : "PCF1234"
+    },
+    "PGLocal2_P": {
+        "Host": "192.168.10.246",
+        "nPort": 20300,
+        "Id" : "PCF",
+        "Pwd" : "PCF1234"
+    },
+    "PGLocal2_S": {
+        "Host": "192.168.10.245",
+        "nPort": 20300,
+        "Id" : "PCF",
+        "Pwd" : "PCF1234"
+    },
+
+    "FailOvers" : ["08S01", "08004", "08001", "08003"],
+    "nPingCheckPeriod" : 30,
+    "nConnectionMonitoringPeriod" : 5
+
+}
